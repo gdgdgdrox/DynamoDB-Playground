@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profiles version="21">
+    <profile>
+        <id>Default</id>
+        <name>JavaFormatter</name>
+        <kind>CodeFormatter</kind>
+        <settings>
+            <!-- Indentation -->
+            <setting id="org.eclipse.jdt.core.formatter.tabulation.char" value="space"/>
+            <setting id="org.eclipse.jdt.core.formatter.tabulation.size" value="4"/>
+            <setting id="org.eclipse.jdt.core.formatter.indentation.size" value="4"/>
+
+            <!-- Braces -->
+            <setting id="org.eclipse.jdt.core.formatter.brace_position_for_type_declaration" value="next_line"/>
+            <setting id="org.eclipse.jdt.core.formatter.brace_position_for_method_declaration" value="next_line"/>
+            <setting id="org.eclipse.jdt.core.formatter.brace_position_for_constructor_declaration" value="next_line"/>
+            <setting id="org.eclipse.jdt.core.formatter.brace_position_for_block" value="next_line"/>
+            <setting id="org.eclipse.jdt.core.formatter.brace_position_for_switch" value="next_line"/>
+
+            <!-- Blank lines -->
+            <setting id="org.eclipse.jdt.core.formatter.blank_lines_before_package" value="1"/>
+            <setting id="org.eclipse.jdt.core.formatter.blank_lines_after_package" value="1"/>
+            <setting id="org.eclipse.jdt.core.formatter.blank_lines_before_imports" value="1"/>
+            <setting id="org.eclipse.jdt.core.formatter.blank_lines_after_imports" value="1"/>
+            <setting id="org.eclipse.jdt.core.formatter.blank_lines_between_type_declarations" value="1"/>
+            <setting id="org.eclipse.jdt.core.formatter.blank_lines_before_member_type" value="1"/>
+
+            <!-- Line Wrapping -->
+            <setting id="org.eclipse.jdt.core.formatter.line_split" value="120"/>
+            <setting id="org.eclipse.jdt.core.formatter.wrap_before_binary_operator" value="true"/>
+            <setting id="org.eclipse.jdt.core.formatter.alignment_for_parameters_in_method_declaration" value="16"/>
+            <setting id="org.eclipse.jdt.core.formatter.alignment_for_arguments_in_method_invocation" value="16"/>
+
+            <!-- Comments -->
+            <setting id="org.eclipse.jdt.core.formatter.comment.format_line_comments" value="true"/>
+            <setting id="org.eclipse.jdt.core.formatter.comment.format_block_comments" value="true"/>
+            <setting id="org.eclipse.jdt.core.formatter.comment.new_lines_at_block_boundaries" value="true"/>
+            <setting id="org.eclipse.jdt.core.formatter.comment.new_lines_at_javadoc_boundaries" value="true"/>
+        </settings>
+    </profile>
+</profiles>
